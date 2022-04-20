@@ -1,11 +1,16 @@
 # semantle-crab
-Solve Semantle in 4 moves via giant enemy crab
+Solve [Semantle](https://semantle.novalis.org/) / [Pimantle](https://semantle.pimanrul.es/) in 4 moves. 
 
-[Try it](https://www.manimino.com/semantle-crab)
+Guess "giant", then "enemy", then "crab". 
 
-Works on Semantle:
+[Then put numbers in here and hit solve.](https://www.manimino.com/semantle-crab)
+
+### Solve Semantle
+
 ![winning Semantle](docs/semantle-crab.png)
 
-Works on Pimantle:
+### Solve Pimantle:
 ![winning Pimantle](docs/pimantle-crab.png)
+
+### What? How?
 
