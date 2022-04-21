@@ -24,7 +24,3 @@ Triangulation. *d<sub>1</sub>* is giant, *d<sub>2</sub>* is enemy, *d<sub>3</sub
 Typically only one word will be at the exact intersection of all three distances.
 
 [(Image credit)](https://www.researchgate.net/publication/281753273_Mobile_Localization_Based_on_Received_Signal_Strength_and_Pearson's_Correlation_Coefficient)
-
-### Can Semantle be solved in a less cheaty way?
-
-[Yes. It's tricky though...](https://www.github.com/manimino/semantle-solver)
