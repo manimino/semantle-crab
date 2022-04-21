@@ -18,19 +18,30 @@
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
       background-origin: border-box;
-      font-size:20px;
+      font-size:30px;
       border:0.1px;
     }
     #formtable {
-      width: 600px; 
+      width: 400px; 
       text-align: center;
       font-size:40px;
       border-collapse: collapse;
       table-layout:fixed;
       margin-left: auto;
       margin-right: auto;
+    }
+    #output {
+      width: 400px; 
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #massive, #damage {
+      font-size:30px;
+      text-align: center;
+      width:100%;
+      min-width:50%;
     }
     th {
       border: 1px solid;
@@ -67,15 +78,6 @@
     p {
       text-align: center;
     }
-    #output {
-      width: 800px; 
-    }
-    #massive, #damage {
-      font-size:35px;
-      text-align: center;
-      width:50%;
-      min-width:50%;
-    }
     ul {
       text-align: center;
       list-style-type: none; /* Remove bullets */
@@ -103,9 +105,9 @@
         <form id="guessform">
         <table id="formtable">
             <tr><th>Word</th><th>Score</th></th>
-            <tr><td>giant</td><td><input type="text" id="giant" type="number" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
-            <tr><td>enemy</td><td><input type="text" id="enemy" type="number" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
-            <tr><td>crab</td><td><input type="text" id="crab" type="number" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
+            <tr><td>giant</td><td><input type="text" inputmode="numeric" id="giant" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
+            <tr><td>enemy</td><td><input type="text" inputmode="numeric" id="enemy" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
+            <tr><td>crab</td><td><input type="text" inputmode="numeric" id="crab" value="0.0" onClick="this.select();"  class="inputNums" /></td></tr>
             <tr><td colspan=2>
                 <input type="submit" value="Solve" class="button" />
             </td></tr>        
@@ -116,8 +118,7 @@
       <div id="massive"></div><div id="damage"></div>
     </div>
     <div id="credits">
-        <br />
-        <p><a href="https://github.com/manimino/semantle-crab">Code</a> | <a href='https://www.deviantart.com/vegasmike/art/Incredible-Giant-Crab-Redux-38936734'>image credit</a></p>
+        <p><a href="https://github.com/manimino/semantle-crab">Code</a> | <a href='https://www.deviantart.com/vegasmike/art/Incredible-Giant-Crab-Redux-38936734'>Image</a></p>
     </div>
 </div>
 </html>
