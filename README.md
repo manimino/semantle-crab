@@ -7,14 +7,14 @@ Guess "giant", then "enemy", then "crab".
 
 ### Solve Semantle
 
-<img src="docs/semantle-crab.png" width="477" />
+<img src="docs/semantle-crab.png" width="300" />
 
 ### Solve Pimantle:
-<img src="docs/pimantle-crab.png" width="493" />
+<img src="docs/pimantle-crab.png" width="300" />
 
 ### What? How does this work?
 
-<img src="docs/triangulation.jpg" width="300" />
+<img src="docs/triangulation.jpg" width="400" />
 
 Triangulation. *d<sub>1</sub>* is "giant", *d<sub>2</sub>* is "enemy", *d<sub>3</sub>* is crab.
 
