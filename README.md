@@ -1,7 +1,7 @@
 # semantle-crab
 Solve [Semantle](https://semantle.novalis.org/) and [Pimantle](https://semantle.pimanrul.es/) in 4 moves. 
 
-First three boves:
+First three moves:
 1. giant
 1. enemy
 1. crab
